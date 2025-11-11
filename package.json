@@ -1,0 +1,26 @@
+{
+  "name": "advanced-ddos-tool",
+  "version": "2.0.0",
+  "description": "Advanced DDoS tool with multi-layer attacks, proxy support, de-indexing, and aggressive crawler",
+  "main": "serang.js",
+  "scripts": {
+    "start": "node serang.js",
+    "test": "node -c serang.js"
+  },
+  "keywords": [
+    "ddos",
+    "stress-test",
+    "network",
+    "security"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "https-proxy-agent": "^7.0.2",
+    "http-proxy-agent": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  }
+}
+
